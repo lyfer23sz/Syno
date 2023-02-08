@@ -2,13 +2,13 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 
 
 local Window = Rayfield:CreateWindow({
-   Name = "XHER's Streamables",
-   LoadingTitle = "xxx Streamable",
-   LoadingSubtitle = "xxx  | creds to Rayfield",
+   Name = "4KWares",
+   LoadingTitle = "4KWares",
+   LoadingSubtitle = "4KWares",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "xxx Streamable"
+      FileName = "4KWares"
    },
    Discord = {
       Enabled = false,
@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "XHER AIM",
+      Title = "4KWares",
       Subtitle = "Key System",
       Note = "ask for prem key",
       FileName = "Josh",
@@ -29,10 +29,10 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("paid locks", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("Op Streamable")
+local Section = Tab:CreateSection("4KWares Aim")
 
 local Button = Tab:CreateButton({
-    Name = "BEST FOR Main NOT Streamable",
+    Name = "heavy camlock",
     Callback = function()
         local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
         NotifyLib.prompt('Dm xhe#2582 For resolver for it', 'Loading..', 2)
