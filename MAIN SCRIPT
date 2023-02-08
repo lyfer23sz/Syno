@@ -29,6 +29,8 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("paid locks", 4483362458) -- Title, Image
 
+local Tab = Window:CreateTab("ESP", 4483362458) -- Title, Image
+
 local Section = Tab:CreateSection("4KWares Aim")
 
  NotifyLib.prompt('xxx Silent - Fov is 20 or higher', 'Loading..', 2)
