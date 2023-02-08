@@ -11,7 +11,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "4KWares"
    },
    Discord = {
-      Enabled = false,
+      Enabled = true,
       Invite = "silentaim", -- The Discord invite code, do not include discord.gg/
       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
    },
@@ -30,6 +30,12 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("paid locks", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("4KWares Aim")
+
+ NotifyLib.prompt('xxx Silent - Fov is 20 or higher', 'Loading..', 2)
+        NotifyLib.prompt('xxx Silent - shoot above head if needed', 'Loading..', 2)
+        NotifyLib.prompt('xxx Silent - made by  xhe', 'Loading..', 2) NotifyLib.prompt('xxx Silent - Fov is 20 or higher', 'Loading..', 5)
+        NotifyLib.prompt('xxx Silent - shoot above head if needed', 'Loading..', 2)
+        NotifyLib.prompt('xxx Silent - made by  xhe', 'Loading..', 2)
 
 local Button = Tab:CreateButton({
     Name = "heavy camlock",
@@ -77,8 +83,8 @@ local Button = Tab:CreateButton({
         local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
         NotifyLib.prompt('xxx Silent - Fov is 20 or higher', 'Loading..', 5)
         NotifyLib.prompt('xxx Silent - shoot above head if needed', 'Loading..', 5)
-        NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)
-       NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)
+        NotifyLib.prompt('xxx Silent - made by  xhe', 'Loading..', 5)
+       NotifyLib.prompt('xxx Silent - made by  xhe', 'Loading..', 5)NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)NotifyLib.prompt('xxx Silent - made by  xher', 'Loading..', 5)
    getgenv().Prediction = 0.13
 getgenv().AimPart = "HumanoidRootPart"
 getgenv().Key = "C"
